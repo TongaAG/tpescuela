@@ -8,7 +8,7 @@ import org.tpescuela.persona.*;
 public class Alumno extends Persona{
 	@Column(length=50)
 	private String direccion;
-	@Id @Column (length= 30)
+	@Id @Column (length= 60)
 	private String numMatric; 
 	public String getDireccion() {
 		return direccion;
