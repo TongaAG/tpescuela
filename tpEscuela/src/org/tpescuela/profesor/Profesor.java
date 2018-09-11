@@ -7,9 +7,9 @@ import org.tpescuela.persona.*;
 
 @Entity
 public class Profesor extends Persona{
-	@Email @Column(length=30)
+	@Email @Column(length=70)
 	private String correoElec;
-	@Column(length=20)
+	@Column(length=50)
 	private String materias;
 	
 	public String getCorreoElec() {
