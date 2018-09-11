@@ -10,6 +10,19 @@ public class Alumno extends Persona{
 	private String direccion;
 	@Id @Column (length= 30)
 	private String numMatric; 
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	public String getNumMatric() {
+		return numMatric;
+	}
+	public void setNumMatric(String numMatric) {
+		this.numMatric = numMatric;
+	}
+	
 	
 	
 

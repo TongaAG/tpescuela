@@ -11,4 +11,18 @@ public class Profesor extends Persona{
 	private String correoElec;
 	@Column(length=20)
 	private String materias;
+	
+	public String getCorreoElec() {
+		return correoElec;
+	}
+	public void setCorreoElec(String correoElec) {
+		this.correoElec = correoElec;
+	}
+	public String getMaterias() {
+		return materias;
+	}
+	public void setMaterias(String materias) {
+		this.materias = materias;
+	}
+	
 }
