@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Persona {
 	@Column(length=100)
 	private String nombre;
-	@Column(length=50)
+	@Column(length=60)
 	private String apellido;
 	@Column(length=40)
 	private String horario;
