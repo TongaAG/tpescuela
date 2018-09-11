@@ -7,5 +7,4 @@ import javax.persistence.*;
 public class Bibloteca {
 	@Column(length=100)
 	private String nombreBiblo;
-	
 }

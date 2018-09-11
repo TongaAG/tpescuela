@@ -28,4 +28,5 @@ public class Persona {
 	public void setHorario(String horario) {
 		this.horario = horario;
 	}
+	
 }

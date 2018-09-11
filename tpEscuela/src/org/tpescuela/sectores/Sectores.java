@@ -1,7 +1,6 @@
 package org.tpescuela.sectores;
 
 import javax.persistence.*;
-
 @Entity
 public class Sectores {
 	@Column(length=80)
