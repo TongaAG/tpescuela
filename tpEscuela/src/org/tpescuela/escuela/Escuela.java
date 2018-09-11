@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 public class Escuela {
-	@Column(length=40)
+	@Column(length=50)
 	private String nomEsc;
 	@Column(length=100)
 	private String direccion;

@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 public class Persona {
-	@Column(length=50)
+	@Column(length=100)
 	private String nombre;
 	@Column(length=50)
 	private String apellido;
