@@ -7,6 +7,7 @@ public class Sectores {
 	private String nomSect;
 	@Column (length=60)
 	private String horarios;
+	@ManyToOne
 	public String getNomSect() {
 		return nomSect;
 	}

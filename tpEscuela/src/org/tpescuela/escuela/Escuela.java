@@ -8,6 +8,7 @@ public class Escuela {
 	private String nomEsc;
 	@Column(length=100)
 	private String direccion;
+	@OneToMany (mappedBy="Sectores")
 	public String getNomEsc() {
 		return nomEsc;
 	}
