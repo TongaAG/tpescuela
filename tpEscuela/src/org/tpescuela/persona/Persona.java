@@ -8,7 +8,7 @@ public class Persona {
 	private String nombre;
 	@Column(length=50)
 	private String apellido;
-	@Column(length=10)
+	@Column(length=40)
 	private String horario;
 	public String getNombre() {
 		return nombre;
