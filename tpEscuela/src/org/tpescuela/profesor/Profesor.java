@@ -24,5 +24,4 @@ public class Profesor extends Persona{
 	public void setMaterias(String materias) {
 		this.materias = materias;
 	}
-	
 }
