@@ -4,11 +4,10 @@ import javax.persistence.*;
 
 @Entity
 public class Sectores {
-	@Column(length=50)
+	@Column(length=80)
 	private String nomSect;
-	@Column (length=30)
+	@Column (length=60)
 	private String horarios;
-	
 	public String getNomSect() {
 		return nomSect;
 	}
@@ -21,6 +20,4 @@ public class Sectores {
 	public void setHorarios(String horarios) {
 		this.horarios = horarios;
 	}
-
-
 }
