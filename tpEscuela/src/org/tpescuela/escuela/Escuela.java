@@ -8,7 +8,6 @@ public class Escuela {
 	private String nomEsc;
 	@Column(length=100)
 	private String direccion;
-	
 	public String getNomEsc() {
 		return nomEsc;
 	}
